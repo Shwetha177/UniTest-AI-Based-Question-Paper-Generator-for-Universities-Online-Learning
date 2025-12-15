@@ -1,0 +1,9 @@
+1. Explain the definition of Artificial Intelligence and discuss its various applications in different fields. Provide examples to illustrate your points.
+
+2. Describe the different types of machine learning, focusing on supervised learning, unsupervised learning, and reinforcement learning. Discuss the key differences between these types and give examples of each.
+
+3. What are the basic concepts of Natural Language Processing (NLP)? Discuss the importance of text preprocessing in NLP and describe some common techniques used in this process.
+
+4. Explain the fundamentals of image processing in the context of computer vision. Discuss the significance of object detection and image classification, and how Convolutional Neural Networks (CNN) are utilized in these processes.
+
+5. Discuss the ethical issues surrounding Artificial Intelligence. How does AI impact society, and what are some potential future developments in AI technologies that could influence ethical considerations?

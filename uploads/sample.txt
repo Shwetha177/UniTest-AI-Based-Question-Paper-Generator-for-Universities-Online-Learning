@@ -1,0 +1,28 @@
+Module-1: Introduction to AI
+- Definition of Artificial Intelligence
+- Applications of AI
+- History and Evolution of AI
+
+Module-2: Machine Learning Basics
+- Types of Machine Learning
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+
+Module-3: Natural Language Processing
+- Basics of NLP
+- Text Preprocessing
+- Sentiment Analysis
+- Machine Translation
+
+Module-4: Computer Vision
+- Image Processing Basics
+- Object Detection
+- Image Classification
+- Convolutional Neural Networks (CNN)
+
+Module-5: AI Ethics and Future
+- Ethical Issues in AI
+- AI in Society
+- Future of AI Technologies
+

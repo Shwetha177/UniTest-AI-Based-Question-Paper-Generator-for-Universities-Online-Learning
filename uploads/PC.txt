@@ -1,0 +1,14 @@
+Module-1: Introduction to parallel programming
+-SIMD systems
+-MIMD systems
+-Interconnection networks
+-Cache coherence
+Module-2: GPU programming
+-Speedup and efficiency in MIMD systems
+-Amdahl’s law
+-Scalability in MIMD systems
+Module-3: Shared-memory programming with OpenMP
+-The reduction clause
+-loop carried dependency
+-scheduling producers and consumers
+-Caches

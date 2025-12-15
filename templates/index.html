@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unitest AI Question Paper Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Unitest AI Question Paper Generator</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <label>Upload Syllabus / Notes:</label>
+            <input type="file" name="syllabus_file" accept=".txt,.pdf,.docx" required>
+
+            <label>Question Type:</label>
+            <select name="q_type">
+                <option value="mcq">Multiple Choice</option>
+                <option value="one-word">One Word</option>
+                <option value="long">Long Answer</option>
+            </select>
+
+            <label>No. of Questions:</label>
+            <input type="number" name="num" min="1" max="50" value="5">
+
+            <label>Difficulty Level:</label>
+            <select name="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="show_answers">
+                Show Answer Key
+            </label>
+
+            <button type="submit">Generate Questions</button>
+        </form>
+
+        {% if result %}
+        <h2>Generated Questions:</h2>
+        <pre>{{ result }}</pre>
+
+        <a href="/download_pdf">
+            <button class="download-btn">Download as PDF</button>
+        </a>
+        {% endif %}
+    </div>
+</body>
+</html>
